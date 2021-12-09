@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 import time
 #numeracja pinow (wedlug boarda)
 #EDIT 11:03
+#kolejny edit
 GPIO.setmode(GPIO.BOARD)
 
 
