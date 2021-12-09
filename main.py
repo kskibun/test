@@ -11,3 +11,7 @@ GPIO.setup(11, GPIO.IN)
 while True:
     print (GPIO.input(11))
     time.sleep(0.5)
+    GPIO.input(11)
+
+while GPIO.input(11)==1:
+    subprocess.run()
